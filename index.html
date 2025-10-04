@@ -12,10 +12,19 @@
       margin: 0;
       background: #111;
     }
+
     img {
       max-width: 90%;
       max-height: 90%;
       border-radius: 10px;
+    }
+
+    /* Regras só para telas menores (celular) */
+    @media (max-width: 600px) {
+      img {
+        max-width: 70%; /* diminui um pouco */
+        max-height: 70%;
+      }
     }
   </style>
 </head>
